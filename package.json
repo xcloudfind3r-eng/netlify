@@ -1,14 +1,12 @@
 {
-  "name": "netlify-xhttp-relay",
+  "name": "netlify-relay-railway",
   "version": "1.0.0",
-  "description": "Netlify Edge Function HTTP relay for your own upstream service",
-  "private": true,
-  "license": "MIT",
+  "main": "index.js",
   "scripts": {
-    "dev": "netlify dev",
-    "build": "echo 'No build step required'"
+    "start": "node index.js"
   },
-  "devDependencies": {
-    "netlify-cli": "latest"
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
   }
 }
